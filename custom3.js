@@ -1,0 +1,16 @@
+let x = 12;
+let y = "13";
+let z = "13.4";
+let za = "13.00";
+let zb = 13.908989;
+console.log(parseInt(y));
+console.log(Number(y));
+console.log(parseFloat(y));
+console.log(parseFloat(z));
+console.log(parseFloat(za));
+console.log(zb.toFixed(3));
+console.log(zb.toFixed());
+console.log(x.toFixed(2));
+console.log(typeof String(12));
+console.log(zb.toPrecision(3));
+console.log(zb.toExponential());
