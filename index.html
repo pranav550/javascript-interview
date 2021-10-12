@@ -11,12 +11,18 @@
     <div>
       <h1>Dom Tutorial</h1>
       <p id="heading" class="domclr cls">This is dom tutorial video</p>
-      <input type="text" value="code improve" id="firstname">
-      </div>
+      <form>
+        <input type="text" name="firstname" id="firstname" onchange="inputfn(this)">
+        <input type="text" name="lastname" id="lastname" onkeyup="input1fn(this)">
+        <input type="submit" value="submit" id="submit">
+      </form>
+     <br>
+     <button onclick="getAlert()">Add User</button>
+   
 
       <div class="row">
         <p id="test">Hello code improve</p>
-        <ul>
+        <ul id="language">
           <li>Node</li>
           <li>Angular</li>
           <li>React</li>
@@ -35,9 +41,10 @@
          <li>B Block</li>
        </ul>
      </div>
+    </div>
 
 
 
-    <script src="Dom1.js"></script>
+    <script src="curring.js"></script>
   </body>
 </html>
